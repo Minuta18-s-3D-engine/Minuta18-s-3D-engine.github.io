@@ -1,4 +1,16 @@
-<header>
-    <a href="/">3D движок</a>
-    <nav>О сайте</nav>
+<header class="header">
+    <div class="header__wrapper">
+        <div class="header__element">
+            <a class="header__title" href="/">3D движок</a>
+        </div>
+        {% if site.nav_pages %}
+        <div class="header__wrapper-right">
+            {% for item in site.nav_pages %}
+            <div class="header__element">
+                <a class="header__nav" href="{{ item.url }}">{{ item.title }}</a>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
 </header>
