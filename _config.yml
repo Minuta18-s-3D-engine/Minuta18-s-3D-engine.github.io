@@ -29,11 +29,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme 
 
 nav_pages:
   - title: "О сайте"
@@ -58,7 +59,7 @@ mermaid:
 last_edit_timestamp: true 
 last_edit_time_format: "%b %e %Y"
 
-footer_content: "Copyright &copy; 2025-2026 Minuta18. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+footer_content: "Контент этого сайта доступен под лицензией <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"license\">Creative Commons Attribution 4.0 International</a>  © {{ \"now\" | date: \"%Y\" }} Minuta18"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
