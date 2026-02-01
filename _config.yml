@@ -26,8 +26,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Minuta18
 
-# theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
+# remote_theme: pmarsceill/just-the-docs
 
 # Build settings
 plugins:
@@ -56,6 +56,11 @@ mermaid:
 
 last_edit_timestamp: true 
 last_edit_time_format: "%b %e %Y"
+
+callouts:
+  note:
+    title: Примечание
+    color: purple
 
 footer_content: |
   Контент этого сайта доступен под лицензией 
