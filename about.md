@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About
+title: О проекте
+nav_order: 1
+date:   2026-01-31 13:30:28 +0300
 permalink: /about/
 ---
 
