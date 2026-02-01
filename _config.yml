@@ -29,6 +29,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+theme: just-the-docs
+
 # Build settings
 plugins:
   - jekyll-feed
@@ -36,6 +38,8 @@ plugins:
 nav_pages:
   - title: "О сайте"
     url: "/about"
+
+favicon_ico: "/assets/images/favicon.png"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
