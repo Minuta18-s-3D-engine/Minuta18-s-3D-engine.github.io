@@ -21,14 +21,12 @@
 title: 3D Движок
 email: ig.samsonov10@yandex.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Технический дневник разработки 3D игрового движка с нуля на C++ и OpenGL
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  Minuta18
 
+# theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 
 # Build settings
@@ -59,7 +57,12 @@ mermaid:
 last_edit_timestamp: true 
 last_edit_time_format: "%b %e %Y"
 
-footer_content: "Контент этого сайта доступен под лицензией <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"license\">Creative Commons Attribution 4.0 International</a>  © {{ \"now\" | date: \"%Y\" }} Minuta18"
+footer_content: |
+  Контент этого сайта доступен под лицензией 
+  <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">
+    Creative Commons Attribution 4.0 International
+  </a> 
+  © 2026 Minuta18
 
 # Exclude from processing.
 # The following items will not be processed, by default.

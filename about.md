@@ -2,19 +2,28 @@
 layout: page
 title: О проекте
 nav_order: 1
-date:   2026-01-31 13:30:28 +0300
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![Известная модель sponza, загруженная в движок](/assets/images/articles/about1.png)
+<span class="text-grey-dk-000">Известная модель Sponza, загруженная в движок</span>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Добро пожаловать на сайт 3D движка!
+## О сайте
+Этот сайт был создан для удобного публликации девлогов, которые я регулярно пишу. 
+Изначально я публиковал их в своём телеграмм канале, однако быстро столкнулся с ограничениями форматирования. 
+Функционал сайта будет постепенно расширятся: как только у движка появится стабильное API размещу здесь документацию к нему.
+Возможно в будущем здесь появятся статьи на различные темы, связанные с IT. 
+Кстати, если вы хотите разместить здесь свою статью, свяжитесь со мной - буду рад опубликовать.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## О проекте 
+Главной целью проекта ставится реализация графического 3D движка на C++ и OpenGL. 
+Код проекта полностью открытый и свободно распространяется.
+Пулл-реквесты приветствуются. 
 
-
-[jekyll-organization]: https://github.com/jekyll
+В настоящее время реализовано:
+ - Clustered Deferred графический пайплайн.
+ - Система игровых объектов (в движке `GameObject`), которая имплементирует базовое ECS (Entity-Component-System).
+ - Модель освещения по Блинну-Фонгу.
+ - Загрузка png и jpeg текстур
+ - Загрузка всех популярных форматов моделей (спасибо Assimp), однако работа над системой ещё ведётся. Могут возникнуть проблемы с загрузкой текстур моделей.
