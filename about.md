@@ -2,7 +2,7 @@
 layout: page
 title: О проекте
 nav_order: 1
-permalink: /about/
+permalink: /
 ---
 
 ![Известная модель sponza, загруженная в движок](/assets/images/articles/about1.png)
