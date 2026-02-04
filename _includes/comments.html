@@ -1,0 +1,34 @@
+<div>
+    <hr>
+    <h2>Комментарии</h2>
+
+    <div id="remark42"></div>
+
+    <noscript>
+        Пожалуйста, включите JavaScript, чтобы просмотреть комментарии.
+    </noscript>
+
+    <script>
+var remark_config = {
+    host: "{{ site.comments.host }}",
+    site_id: "{{ site.comments.site_id }}",
+    max_shown_comments: "{{ site.comments.max_shown | default: 50 }}",
+    theme: "light",
+    locale: "ru",
+    components: ["embed", "counter"], 
+};
+
+(function() {
+    var d = document.createElement('script');
+    d.type = 'text/javascript';
+    d.src = remark_config.host + '/web/embed.js';
+    d.defer = true;
+    d.onerror = function() {
+        console.error('Failed to load Remark42 script');
+        document.getElementById('remark42').innerHTML = 
+            '<p>Сервис комментариев временно недоступен.</p>';
+    };
+    (document.head || document.body).appendChild(d);
+})();
+    </script>
+</div>

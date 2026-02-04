@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default_with_comments
 title: О проекте
 nav_order: 1
+comments: true
 permalink: /
 ---
 
