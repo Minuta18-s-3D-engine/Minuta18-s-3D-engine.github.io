@@ -1,9 +1,7 @@
 ---
 layout: default_with_comments
 title: Политика конфиденциальности
-date:   2026-01-31 13:30:28 +0300
 comments: false
-nav_order: 2
 nav_exclude: true
 ---
 
