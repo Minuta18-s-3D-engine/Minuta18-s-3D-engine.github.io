@@ -1,3 +1,17 @@
+Sitemap: https://minuta18-s-3d-engine.github.io/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
 User-agent: *
 Allow: /
 
@@ -22,25 +36,8 @@ Disallow: /
 User-agent: OAI-Applebot
 Disallow: /
 
-User-agent: Google-Extended
-Disallow: /
-
 User-agent: Bytespider
 Disallow: /
 
 User-agent: ClaudeBot
 Disallow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: YandexBot
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-Sitemap: https://minuta18-s-3d-engine.github.io/sitemap.xml
