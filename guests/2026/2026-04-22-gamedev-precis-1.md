@@ -12,7 +12,7 @@ nav_order: 1
 
 # Кружок геймдев: конспект занятия 1
 
-О жанре игры: ![https://docs.google.com/presentation/d/1wmIz9v3b...]([https://docs.google.com/presentation/d/1wmIz9v3b04m8vIhyfr7VNmuycM93pMEf98-MUHdf-Ok/edit?usp=sharing])
+О жанре игры: [https://docs.google.com/presentation/d/1wmIz9v3b...]([https://docs.google.com/presentation/d/1wmIz9v3b04m8vIhyfr7VNmuycM93pMEf98-MUHdf-Ok/edit?usp=sharing])
 
 Начнём работу с файла, который был приложен в чате 6 апреля.
 
