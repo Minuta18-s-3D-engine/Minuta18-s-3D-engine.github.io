@@ -10,7 +10,23 @@ nav_order: 1
 
 <span class="text-grey-dk-000">Лицензия: Creative Commons Attribution 4.0 International</span>
 
-## Завершим базовое создание игрока
+О жанре игры: ![https://docs.google.com/presentation/d/1wmIz9v3b...]([https://docs.google.com/presentation/d/1wmIz9v3b04m8vIhyfr7VNmuycM93pMEf98-MUHdf-Ok/edit?usp=sharing])
+
+Начнём работу с файла, который был приложен в чате 6 апреля.
+
+## Заменяем прямоугольник текстурой 
+
+Для начала заменим прямоугольник на основной сцене дельной текстурой. Удалим узел `ColorRect` и добавим `AnimatedSprite2D` (даже учитывая, что объект не анимирован). В нём добавим новый `SpriteFrames`.
+
+<здесь скоро будет пикча>
+
+Выделим созданный `SpriteFrames` и добавим текстуру на пути `assets/Tiny Swords (Free pack)/Buildings/[любой цвет]/Barracks.png`.
+
+<здесь скоро будет пикча>
+
+Готово.
+
+## Завершаем создание базового игрока
 
 Добавим помимо анимации `default` анимацию `run`. Для этого сначала нажмите в открытом `SpriteFrames` кнопку слева-сверху с зелёным знаком `+`. Затем переименуем новую анимацию на `run` (1) и выберем спрайт для этой анимации (2). 
 
