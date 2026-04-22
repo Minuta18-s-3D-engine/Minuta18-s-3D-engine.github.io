@@ -10,6 +10,8 @@ nav_order: 1
 
 <span class="text-grey-dk-000">Лицензия: Creative Commons Attribution 4.0 International</span>
 
+# Кружок геймдев: конспект занятия 1
+
 О жанре игры: ![https://docs.google.com/presentation/d/1wmIz9v3b...]([https://docs.google.com/presentation/d/1wmIz9v3b04m8vIhyfr7VNmuycM93pMEf98-MUHdf-Ok/edit?usp=sharing])
 
 Начнём работу с файла, который был приложен в чате 6 апреля.
@@ -18,11 +20,12 @@ nav_order: 1
 
 Для начала заменим прямоугольник на основной сцене дельной текстурой. Удалим узел `ColorRect` и добавим `AnimatedSprite2D` (даже учитывая, что объект не анимирован). В нём добавим новый `SpriteFrames`.
 
-> здесь скоро будет пикча
+![](/assets/images/guests/2026/gamedev-precis-1/3.png)
 
 Выделим созданный `SpriteFrames` и добавим текстуру на пути `assets/Tiny Swords (Free pack)/Buildings/[любой цвет]/Barracks.png`.
 
-> здесь скоро будет пикча
+![](/assets/images/guests/2026/gamedev-precis-1/4.png)
+
 
 Готово.
 
