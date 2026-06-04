@@ -26,14 +26,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://minuta18-s-3d-engine.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Minuta18
 
-# theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
+# remote_theme: pmarsceill/just-the-docs
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-remote-theme 
   - jekyll-sitemap
+  - kramdown-plantuml
 
 nav_pages:
   - title: "О сайте"
