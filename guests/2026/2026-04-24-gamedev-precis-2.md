@@ -4,6 +4,8 @@ title: "Кружок геймдев: конспект занятия 2"
 parent: "2026"
 comments: true
 nav_order: 2
+hidden: true
+sitemap: false
 ---
 
 <span class="text-grey-dk-000">Автор: ![Ivanmaxx](https://github.com/Ivanmaxx)</span>
